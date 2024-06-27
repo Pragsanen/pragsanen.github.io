@@ -205,6 +205,16 @@ img {
   top: 3px;
 }
 
+.navbar .navbar-text {
+  font-size: 24px; /* Adjust the size as needed */
+  font-weight: bold; /* Adjust the weight as needed */
+  color: #ffffff; /* Set to white to match the navbar */
+  display: inline-block;
+  padding: 0 10px;
+  text-transform: uppercase; /* Optional: Makes the text uppercase */
+  font-family: 'Roboto', sans-serif; /* Ensure this matches the logo font */
+}
+
 .navbar-fixed {
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0);
 }
@@ -563,4 +573,35 @@ footer ul li a {
   .faq {
     margin-top: 400px;
   }
+}
+
+/* ------------------------------
+  Responsive Images
+---------------------------------*/
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    flex: 1 1 30%; /* Adjust the 30% value to control the width of the images */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+/* Optional: Add media queries for further control over responsiveness */
+@media (max-width: 768px) {
+    .image-container img {
+        flex: 1 1 45%; /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .image-container img {
+        flex: 1 1 100%; /* Full width on very small screens */
+    }
 }
