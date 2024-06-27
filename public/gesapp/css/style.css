@@ -112,7 +112,7 @@ img {
 
 .loader .loading .aloader {
   background: #f5f5f5;
-  color: #0921fb;
+  color: #4267B2;
 }
 
 /* ------------------------------
@@ -135,7 +135,7 @@ img {
 }
 
 .button:hover {
-  background: #0921fb;
+  background: #4267B2;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -144,7 +144,7 @@ img {
   navbar
 ---------------------------------*/
 .navbar {
-  background: #0921fb;
+  background: #4267B2;
   padding: 25px 0;
   position: fixed;
   width: 100%;
@@ -213,7 +213,7 @@ img {
  	section-title
 ---------------------------------*/
 .title h5 {
-  color: #0921fb;
+  color: #4267B2;
   margin-bottom: 10px;
 }
 .title h2 {
@@ -224,7 +224,7 @@ img {
   intro
 ---------------------------------*/
 .intro {
-  background: #0921fb;
+  background: #4267B2;
   padding: 175px 0 310px;
   text-align: center;
 }
@@ -274,7 +274,7 @@ img {
 }
 .features .content .icon i {
   font-size: 30px;
-  color: #0921fb;
+  color: #4267B2;
   margin-top: 35px;
 }
 .features .content .text {
@@ -312,14 +312,14 @@ img {
 }
 .features02 .content i {
   font-size: 30px;
-  color: #0921fb;
+  color: #4267B2;
 }
 
 /* ------------------------------
   download
 ---------------------------------*/
 .download {
-  background: #0921fb;
+  background: #4267B2;
   height: 426px;
   color: #ffffff;
 }
@@ -371,7 +371,7 @@ img {
 .cta .content {
   padding: 30px 40px 15px;
   color: #fff;
-  background: #0921fb;
+  background: #4267B2;
   border-radius: 15px;
 }
 .cta .content h2 {
@@ -428,7 +428,7 @@ footer ul li {
   padding: 6px 0;
 }
 footer ul li i {
-  color: #0921fb;
+  color: #4267B2;
   margin-right: 15px;
 }
 footer ul li a {
@@ -462,7 +462,7 @@ footer ul li a {
   .navbar .navbar-collapse {
     position: absolute;
     top: 100px;
-    background: #0921fb;
+    background: #4267B2;
     width: 100%;
     right: 0;
     padding: 0 30px 30px;
