@@ -445,6 +445,19 @@ footer ul li a {
   color: #fff;
 }
 
+.footer-logo {
+    width: 150px; /* Adjust the width to fit the green frame */
+    height: auto; /* Maintain the aspect ratio */
+    display: block;
+    margin: 0 auto 20px; /* Center the logo and add some margin below */
+}
+
+@media (min-width: 768px) {
+    .footer-logo {
+        width: 200px; /* Increase the size for larger screens if necessary */
+    }
+}
+
 .footer-cp {
   background: #0a0a0a;
   color: #fff;
